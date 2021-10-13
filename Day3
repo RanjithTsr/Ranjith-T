@@ -1,0 +1,41 @@
+package Day3;
+
+import java.util.Scanner;
+public class foodMenu
+{
+	public static void main(String[] args)
+	{
+	 int a=30,b=20,i,p1 = 0,p2 = 0;                              //parameter
+	 String dosa = null,idly = null;
+	 System.out.println("Our Menu");                      //menu list
+	 System.out.println("dosa= "+a);
+	 System.out.println("idly= "+b);
+	 
+	 System.out.println("Enter your order");
+	 
+	 Scanner input = new Scanner (System.in);             //get input
+	 for(i=0;i<2;i++)
+	 {
+	 String item = input.next();
+	  int qty     = input.nextInt();
+	   {
+	   if(item==dosa && qty !=0)
+	      {
+		System.out.println("bill =  "+ item+"   Rs."+(p1=qty*a));
+	      }
+	  else if(item==idly && qty!=0)
+	      {
+		   System.out.println("bill =  "+ item+"   Rs."+(p2=qty*b));
+	      }
+	   else
+	      {
+		   System.out.println("not in menu");
+	      }
+	   }
+	 
+	        int finalbill =p1+p2;
+	 }
+	 
+	 
+   }	 
+}
