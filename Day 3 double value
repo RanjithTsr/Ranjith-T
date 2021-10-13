@@ -1,0 +1,22 @@
+package Day3;
+
+import java.util.*;    
+public class moneyManagement 
+{     
+  public static void main(String[] args)
+     {    
+      Scanner scan =new Scanner(System.in);     
+      System.out.print("Enter value:");         
+        if(scan.hasNextDouble())  
+          {   
+           Double y=scan.nextDouble();        
+           System.out.println("Your entered Double value:  "+y);   
+          }   
+       else if(scan.hasNext())   
+         {      
+         System.out.println("please Enter the Double value");   
+         }    
+       
+     scan.close();     
+    }
+} 
