@@ -1,2 +1,0 @@
-# Ranjith-T
-Core java 
